@@ -585,7 +585,6 @@
 		00896A162486DAD100DC48C2 /* BSG_KSCrashSentry_Signal.c in Sources */ = {isa = PBXBuildFile; fileRef = 008969412486DAD000DC48C2 /* BSG_KSCrashSentry_Signal.c */; };
 		00896A172486DAD100DC48C2 /* BSG_KSCrashSentry_CPPException.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008969422486DAD000DC48C2 /* BSG_KSCrashSentry_CPPException.mm */; };
 		00896A182486DAD100DC48C2 /* BSG_KSCrashSentry_CPPException.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008969422486DAD000DC48C2 /* BSG_KSCrashSentry_CPPException.mm */; };
-		00896A192486DAD100DC48C2 /* BSG_KSCrashSentry_CPPException.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008969422486DAD000DC48C2 /* BSG_KSCrashSentry_CPPException.mm */; };
 		00896A1A2486DAD100DC48C2 /* BSG_KSCrashSentry_MachException.c in Sources */ = {isa = PBXBuildFile; fileRef = 008969432486DAD000DC48C2 /* BSG_KSCrashSentry_MachException.c */; };
 		00896A1B2486DAD100DC48C2 /* BSG_KSCrashSentry_MachException.c in Sources */ = {isa = PBXBuildFile; fileRef = 008969432486DAD000DC48C2 /* BSG_KSCrashSentry_MachException.c */; };
 		00896A1C2486DAD100DC48C2 /* BSG_KSCrashSentry_MachException.c in Sources */ = {isa = PBXBuildFile; fileRef = 008969432486DAD000DC48C2 /* BSG_KSCrashSentry_MachException.c */; };
@@ -746,6 +745,7 @@
 		3A700AF824A6492F0068CD1B /* BugsnagError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A700A9124A63A8E0068CD1B /* BugsnagError.h */; };
 		3A700AF924A6492F0068CD1B /* BugsnagDeviceWithState.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A700A9224A63A8E0068CD1B /* BugsnagDeviceWithState.h */; };
 		3A700AFA24A6492F0068CD1B /* BugsnagMetadata.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A700A9324A63A8E0068CD1B /* BugsnagMetadata.h */; };
+		3C3D5BE624E4BF4200F17659 /* BSG_KSCrashSentry_CPPException.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008969422486DAD000DC48C2 /* BSG_KSCrashSentry_CPPException.mm */; };
 		E701FA9F2490EF4A008D842F /* BugsnagApiValidationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E701FA9E2490EF4A008D842F /* BugsnagApiValidationTest.m */; };
 		E701FAA02490EF4A008D842F /* BugsnagApiValidationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E701FA9E2490EF4A008D842F /* BugsnagApiValidationTest.m */; };
 		E701FAA12490EF4A008D842F /* BugsnagApiValidationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E701FA9E2490EF4A008D842F /* BugsnagApiValidationTest.m */; };
@@ -768,7 +768,6 @@
 		E7462904248907C100F92D67 /* BSG_KSCrashIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 008969302486DAD000DC48C2 /* BSG_KSCrashIdentifier.m */; };
 		E7462905248907C100F92D67 /* BSG_KSCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 008969362486DAD000DC48C2 /* BSG_KSCrash.m */; };
 		E7462906248907C100F92D67 /* BSG_KSCrashSentry_NSException.m in Sources */ = {isa = PBXBuildFile; fileRef = 0089693B2486DAD000DC48C2 /* BSG_KSCrashSentry_NSException.m */; };
-		E7462907248907C100F92D67 /* BSG_KSCrashSentry_CPPException.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008969422486DAD000DC48C2 /* BSG_KSCrashSentry_CPPException.mm */; };
 		E7462908248907C100F92D67 /* BSG_KSSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0089694C2486DAD000DC48C2 /* BSG_KSSystemInfo.m */; };
 		E7462909248907E500F92D67 /* BSG_KSMach_x86_32.c in Sources */ = {isa = PBXBuildFile; fileRef = 008969032486DAD000DC48C2 /* BSG_KSMach_x86_32.c */; };
 		E746290A248907E500F92D67 /* BSG_KSDynamicLinker.c in Sources */ = {isa = PBXBuildFile; fileRef = 008969062486DAD000DC48C2 /* BSG_KSDynamicLinker.c */; };
@@ -2694,6 +2693,7 @@
 				00896A042486DAD100DC48C2 /* BSG_KSCrashSentry_NSException.m in Sources */,
 				008967D52486DA2D00DC48C2 /* BugsnagEndpointConfiguration.m in Sources */,
 				0089699E2486DAD100DC48C2 /* BSG_KSFileUtils.c in Sources */,
+				3C3D5BE624E4BF4200F17659 /* BSG_KSCrashSentry_CPPException.mm in Sources */,
 				008969772486DAD100DC48C2 /* BSG_KSJSONCodec.c in Sources */,
 				00896A2E2486DAD100DC48C2 /* BSG_KSCrashReport.c in Sources */,
 				008968822486DA9600DC48C2 /* BugsnagAppWithState.m in Sources */,
@@ -2715,7 +2715,6 @@
 				008968082486DA4500DC48C2 /* BugsnagErrorReportApiClient.m in Sources */,
 				0089682D2486DA5600DC48C2 /* BSGSerialization.m in Sources */,
 				008968EB2486DAB800DC48C2 /* BugsnagSessionFileStore.m in Sources */,
-				00896A192486DAD100DC48C2 /* BSG_KSCrashSentry_CPPException.mm in Sources */,
 				008969D12486DAD100DC48C2 /* BSG_KSCrashState.m in Sources */,
 				008968C52486DA9600DC48C2 /* BugsnagUser.m in Sources */,
 				008968A92486DA9600DC48C2 /* BugsnagSession.m in Sources */,
@@ -2847,7 +2846,6 @@
 				E7462904248907C100F92D67 /* BSG_KSCrashIdentifier.m in Sources */,
 				E7462905248907C100F92D67 /* BSG_KSCrash.m in Sources */,
 				E7462906248907C100F92D67 /* BSG_KSCrashSentry_NSException.m in Sources */,
-				E7462907248907C100F92D67 /* BSG_KSCrashSentry_CPPException.mm in Sources */,
 				E7462908248907C100F92D67 /* BSG_KSSystemInfo.m in Sources */,
 				008968CA2486DA9600DC48C2 /* BugsnagApp.m in Sources */,
 				00AD1F0F2486A17900A27979 /* BSGOutOfMemoryWatchdog.m in Sources */,
